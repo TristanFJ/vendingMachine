@@ -33,8 +33,8 @@ export default class VendingController {
   }
 
 
-  addQuarter() {
-    vendingService.addQuarter()
+  addDollar() {
+    vendingService.addDollar()
     console.log(ProxyState.money);
     _drawMoney()
     _draw()

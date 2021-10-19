@@ -14,8 +14,8 @@ class VendingService {
   }
 
 
-  addQuarter() {
-    ProxyState.money += ProxyState.quarter
+  addDollar() {
+    ProxyState.money += ProxyState.dollar
   }
 
   buySnack(snackName) {

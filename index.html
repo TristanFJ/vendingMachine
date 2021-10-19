@@ -11,16 +11,14 @@
 
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>vendingMachine</title>
+  <title>Vending Machine</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-dark navbar-expand bg-dark text-light no-select">
       <a class="navbar-brand ms-3" href="#">
-        <img src="https://codeworks.blob.core.windows.net/public/assets/img/cw-mark.png" height="45" alt=""
-          loading="lazy">
-        <span class="ms-2">vendingMachine</span>
+        <h1 class="ms-2">Vending Machine</h1>
       </a>
     </nav>
   </header>
@@ -30,8 +28,8 @@
         <div class="col-12">
           <div id="">
             <div class="p-5">
-              <button class="btn btn-secondary text-white elevation-3" onclick="app.vendingController.addQuarter()">
-                Insert Quarter
+              <button class="btn btn-secondary text-white elevation-3" onclick="app.vendingController.addDollar()">
+                Insert Dollar
               </button>
               <div class="values d-flex flex-wrap my-3">
                 <h3 class="no-select">Money: $<span id="money">0</span></h3>
@@ -48,7 +46,7 @@
   </main>
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
-      <p><small>Made with 💖 by Codeworks</small></p>
+      <p><small>Made with 💖 by <a href="https://github.com/tristanfj">Tristan Johns</a></small></p>
     </div>
   </footer>
 

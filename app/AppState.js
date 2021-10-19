@@ -24,9 +24,10 @@ class AppState extends EventEmitter {
     new Snack('Gatorade', 1, 11, 'https://images.heb.com/is/image/HEBGrocery/000532225?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0'),
     new Snack('Gold Bar', 99999999, 0, 'https://www.usmoneyreserve.com/wp-content/uploads/2015/07/gold-bar-1-kilo.jpg'),
     new Snack('Money', -1, 5, 'https://upload.wikimedia.org/wikipedia/commons/2/23/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg'),
+    new Snack('The RiftBreaker', 30, 50, 'https://cdn1.epicgames.com/salesEvent/salesEvent/egs-theriftbreaker-exorstudios-s3-2560x1440-75291424bf25_2560x1440-7fc550d5bbcf31fb84d5f3a75d42d4d8'),
   ]
   money = 9
-  quarter = 0.25
+  dollar = 1
 }
 
 export const ProxyState = new Proxy(new AppState(), {
