@@ -1,4 +1,6 @@
-import { generateId } from "../Utils/generateId.js"
+import {
+  generateId
+} from "../Utils/generateId.js"
 
 export class Value {
   constructor(data) {
@@ -7,7 +9,7 @@ export class Value {
   }
 
   get CardTemplate() {
-    return /*html*/`
+    return /*html*/ `
       <div class="card m-2 shadow">
         <div class="card-body">
           <h4 class="text-uppercase no-select">
